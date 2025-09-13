@@ -1,0 +1,99 @@
+/* Genel */
+.header {
+  width: 100%;
+
+  backdrop-filter: blur(4px);
+  /* arka plana blur efekti */
+  font-family: Arial, sans-serif;
+}
+
+.login {
+  color: black;
+}
+
+/* Üst Bar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.topbar-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar-section.right a {
+
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  min-width: 180px;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+
+
+/* Sağdaki giriş-sepet kısmı */
+.auth-cart a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}

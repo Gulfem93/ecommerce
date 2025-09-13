@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.hero-section {
+  /*background-image: url("../image/background_image.png");*/
+  background-size: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 745px;
+  background-size: auto;
+  /*position: relative;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  width: 1050;
+  height: 548;
+  top: 104px;
+  left: 195px;
+  gap: 80px;
+
+
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  /* biraz karartma */
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.header-tag {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.headline-4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  max-width: 376px;
+}
+
+.cta-buttons {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  width: 163px;
+  height: 52px;
+  padding: 15px 40px;
+  gap: 10px;
+
+  border: none;
+  border-radius: 5px;
+  background: #23A6F0;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.btn-primary:hover {
+  background: #1a82c3; /* hover için biraz koyu mavi */
+}
+
+
+.image-side {
+  width: 728px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image {
+  width: 657px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .text-content,
+  .image-side {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .headline-4 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .image {
+    width: 90%;
+  }
+}
