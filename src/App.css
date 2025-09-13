@@ -13,5 +13,6 @@
     align-items: center;
     justify-content: center;
     object-fit: cover;
-    
+    background-repeat: no-repeat;
+    background-size: auto;
 }
