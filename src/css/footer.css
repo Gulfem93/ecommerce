@@ -1,0 +1,152 @@
+.footer {
+  width: 100%;
+  background-color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Üst kısım */
+.footer-top {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.footer-top-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.footer-socials a {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #23A6F0;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #252B42;
+}
+
+/* Link kolonları */
+.footer-links {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.footer-link-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.footer-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #252B42;
+}
+
+.footer-links a {
+  display: block;
+  font-size: 14px;
+  color: #737373;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #23A6F0;
+}
+
+.footer-subscribe {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-subscribe .subscribe-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-subscribe input {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  flex: 1;
+}
+
+.footer-subscribe button {
+  padding: 10px 20px;
+  background: #23A6F0;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.footer-subscribe button:hover {
+  background: #1b85c9;
+}
+
+.footer-subscribe p {
+  font-size: 12px;
+  color: #737373;
+}
+
+/* Ayırıcı çizgi */
+hr {
+  border: 1px solid #E6E6E6;
+  margin: 0;
+}
+
+/* Alt kısım */
+.footer-bottom {
+  width: 100%;
+  background-color: #FAFAFA;
+  padding: 25px 0;
+}
+
+.footer-bottom-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-bottom-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-bottom-col-md-7 {
+  flex: 1;
+}
+
+.footer-bottom-p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}

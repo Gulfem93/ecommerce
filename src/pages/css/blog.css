@@ -1,0 +1,232 @@
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.blog-card {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.fixed-height {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.fixed-height img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.small {
+  width: 79px;
+  height: 16px;
+  opacity: 1;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #e63946;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.Frame3 {
+  padding: 16px;
+}
+
+.post-title {
+  width: 247px;
+  /* Birim eklendi */
+  height: 60px;
+  /* Birim eklendi */
+  transform: rotate(0deg);
+  /* 'angle' yerine 'rotate' kullanıldı */
+  opacity: 1;
+
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* Satır yüksekliği */
+  letter-spacing: 0.2px;
+}
+
+
+.post-description {
+  width: 280px;
+  /* Birim eklendi */
+  height: 60px;
+  /* Birim eklendi */
+  opacity: 1;
+
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* Satır yüksekliği */
+  letter-spacing: 0.2px;
+
+  color: #737373;
+}
+
+.Frame1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #777;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #0077ff;
+  cursor: pointer;
+}
+
+.a h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.tag {
+  display: flex;
+  width: 160px;
+  /* birim ekledim */
+  height: 16px;
+  /* birim ekledim */
+  transform: rotate(0deg);
+  /* "angle" doğru şekilde kullanıldı */
+  opacity: 1;
+  gap: 15px;
+  /* Flexbox veya Grid ile kullanılan bir özellik */
+  justify-content: space-around;
+}
+
+.tags {
+  width: 160px;
+  /* birim ekledim */
+  height: 16px;
+  /* birim ekledim */
+  transform: rotate(0deg);
+  /* açıyı doğru şekilde verdim */
+  opacity: 1;
+  gap: 15px;
+  /* Flexbox veya Grid içinde kullanılmalı */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.chartArea {
+  width: 16px;
+  /* birim ekledim */
+  height: 14.66px;
+  /* birim ekledim */
+  transform: rotate(0deg);
+  /* 'angle' yerine 'rotate' kullanıldı */
+  opacity: 1;
+  /* Öğenin tamamen görünür olmasını sağlar */
+}
+
+.Frame1-comment {
+  width: 105px;
+  /* birim ekledim */
+  height: 16px;
+  /* birim ekledim */
+  transform: rotate(0deg);
+  /* 'angle' yerine 'rotate' kullanıldı */
+  opacity: 1;
+  /* Öğenin tamamen görünür olmasını sağlar */
+  gap: 5px;
+  /* Flexbox veya Grid konteyneri kullanarak öğeler arasındaki boşluk */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.alarmClock {
+  width: 16px;
+  /* Birim ekledim */
+  height: 16px;
+  /* Birim ekledim */
+  transform: rotate(0deg);
+  /* 'angle' yerine 'rotate' kullanıldı */
+  opacity: 1;
+  /* Tamamen opak */
+}
+
+.Frame1-date {
+  width: 100px;
+  /* birim ekledim */
+  height: 16px;
+  /* birim ekledim */
+  transform: rotate(0deg);
+  /* 'angle' yerine 'rotate' kullanıldı */
+  opacity: 1;
+  gap: 5px;
+  /* Flexbox veya Grid konteyneri kullanarak öğeler arasındaki boşluk */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tags-small {
+  width: 45px;
+  /* birim ekledim */
+  height: 16px;
+  /* birim ekledim */
+  transform: rotate(0deg);
+  /* 'angle' yerine 'rotate' kullanıldı */
+  opacity: 1;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* satır yüksekliği */
+  letter-spacing: 0.2px;
+  /* harfler arası boşluk */
+}
+
+.tags-small-google {
+  color: #8EC2F2;
+}
+
+.tags-small-trending {
+  color: #737373;
+}
+
+.tags-small-new {
+  color: #737373;
+}

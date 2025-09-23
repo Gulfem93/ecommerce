@@ -1,149 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+/* Genel Hero Section */
 .hero-section {
-  /*background-image: url("../image/background_image.png");*/
-  background-size: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 745px;
-  background-size: auto;
-  /*position: relative;*/
   display: flex;
-  align-items: center;
   justify-content: center;
-  object-fit: cover;
-  width: 1050;
-  height: 548;
-  top: 104px;
-  left: 195px;
-  gap: 80px;
-
-
-}
-
-.hero-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  /* biraz karartma */
-  z-index: 1;
-}
-
-.hero-content {
-  z-index: 2;
-  max-width: 1440px;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  gap: 60px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px 20px;
 }
 
-.text-content {
+/* Yazılar */
+.main-content {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
-  color: #fff;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
 }
 
-.header-tag {
-  font-family: "Montserrat", sans-serif;
+h5.header-tag {
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.1px;
+  color: #23A6F0;
+  margin: 0;
 }
 
-.headline-4 {
-  font-family: "Montserrat", sans-serif;
+h1.headline {
+  width: 542px;
+  height: 160px;
+  transform: rotate(0deg); /* Apply rotation if needed */
+  opacity: 1;
+  font-family: Montserrat;
   font-weight: 700;
   font-size: 58px;
   line-height: 80px;
   letter-spacing: 0.2px;
+  text-align: center;
+  color: #252B42;
+  margin: 0;
+  z-index: 10; /* Yazının resmin önünde görünmesini sağlar */
 }
 
-.description {
-  font-family: "Montserrat", sans-serif;
+h4.sub-headline {
+  width: 370px;
+  height: 30px;
+  transform: rotate(0deg);
+  /* Apply rotation if needed */
+  opacity: 1;
+  font-family: Montserrat;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  max-width: 376px;
+  text-align: center;
+  color: #252B42;
+  margin: 0;
 }
 
-.cta-buttons {
-  margin-top: 10px;
+/* Button */
+.button-cta {
+  margin-top: 20px;
 }
 
-.btn-primary {
-  width: 163px;
-  height: 52px;
-  padding: 15px 40px;
-  gap: 10px;
+.button-md {
+  padding: 12px 32px;
+  border: 2px solid #23A6F0;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-  border: none;
-  border-radius: 5px;
+.button-md:hover {
   background: #23A6F0;
+  color: #fff;
+}
 
-  font-family: "Montserrat", sans-serif;
+.btn-text {
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.2px;
   text-align: center;
-  color: white;
+  color: #23A6F0;
+}
 
-  cursor: pointer;
-  transition: all 0.3s ease;
+.button-md:hover .btn-text {
+  color: #fff;
+}
+
+/* Resimler */
+.left {
+  width: 282px;
+  height: 376px;
+  transform: rotate(0deg);
+  /* Rotation if needed */
   opacity: 1;
+  position: absolute;
+  /* Ensure it's positioned correctly */
+  top: 204px;
+  left: 60px;
 }
 
-.btn-primary:hover {
-  background: #1a82c3; /* hover için biraz koyu mavi */
+.right {
+  width: 513px;
+  height: 608px;
+  transform: rotate(0deg);
+  /* Rotation if needed */
+  opacity: 1;
+  position: absolute;
+  /* Ensure it's positioned correctly */
+  top: 92px;
+  left: 927px;
 }
 
 
-.image-side {
-  width: 728px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.image {
-  width: 657px;
+.hero-image img {
+  max-width: 100%;
   height: auto;
-  object-fit: contain;
+  border-radius: 8px;
 }
 
-
-@media (max-width: 768px) {
-  .hero-content {
+/* Responsive */
+@media (max-width: 992px) {
+  .hero-section {
     flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .main-content {
     align-items: center;
     text-align: center;
-    gap: 40px;
-  }
-
-  .text-content,
-  .image-side {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .headline-4 {
-    font-size: 42px;
-    line-height: 56px;
-  }
-
-  .description {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .image {
-    width: 90%;
   }
 }

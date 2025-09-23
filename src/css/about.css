@@ -1,0 +1,188 @@
+.about {
+    width: 100%;
+    height: 729px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.about-container {
+    flex: 1;
+    padding-left: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-row {
+    display: flex;
+}
+
+.about-col-md-8 {
+    max-width: 500px;
+}
+
+.about-headline-3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.about-headline {
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    margin-bottom: 20px;
+}
+
+.about-sub-headline {
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.about-btn-md {
+    display: inline-block;
+    background-color: #23A6F0;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.about-btn-md:hover {
+    background-color: #1b82bd;
+}
+
+.about-btn-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.about-background {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-2-bg-shape-cover {
+    position: relative;
+}
+
+.class_about_image {
+    max-width: 450px;
+    position: relative;
+    width: 571px;
+    /* added 'px' */
+    height: 668px;
+    /* added 'px' */
+    transform: rotate(0deg);
+    /* rotate image if needed */
+    opacity: 1;
+    top: -56px;
+    left: 34px;
+
+    z-index: 2;
+}
+
+.about-none {
+    width: 632px;
+    /* added 'px' */
+    height: 612px;
+    /* added 'px' */
+    transform: rotate(0deg);
+    /* rotate if needed */
+    opacity: 1;
+    top: 117px;
+    left: 742px;
+}
+
+
+.ellipse1,
+.ellipse2,
+.ellipse3,
+.ellipse4,
+.ellipse5 {
+    position: absolute;
+    /* Default renk */
+    opacity: 0.3;
+    z-index: 1;
+}
+
+/* Örnek konumlandırmalar */
+.ellipse1 {
+    width: 14.775167465209961px;
+    height: 14.775167465209961px;
+    transform: rotate(0deg);
+    /* Optional, for no rotation */
+    opacity: 1;
+    top: 408.78px;
+    left: 23.92px;
+    color: #977DF4;
+    /* Correct property for background color */
+    position: absolute;
+    /* Ensures proper positioning relative to its parent */
+}
+
+
+.ellipse2 {
+    width: 14.775167465209961px;
+    height: 14.775167465209961px;
+    transform: rotate(0deg);
+    /* Optional: no rotation */
+    opacity: 1;
+    top: 121.72px;
+    left: 576.94px;
+    color: #977DF4;
+    /* Correct background color property */
+    position: absolute;
+    /* Position the element relative to its parent */
+}
+
+
+.ellipse3 {
+    width: 30.25391387939453px;
+    height: 30.25391387939453px;
+    transform: rotate(0deg);
+    /* Optional, no rotation */
+    opacity: 1;
+    top: 247.66px;
+    left: 554.42px;
+    color: #FFE9EA;
+    /* Correct background color property */
+    position: absolute;
+    /* Positioning the element */
+}
+
+
+.ellipse4 {
+    width: 77.39373016357422px;
+    height: 77.39373016357422px;
+    transform: rotate(0deg); /* Optional: no rotation */
+    opacity: 1;
+    top: 11.96px;
+    color: #FFE9EA; /* Example background color */
+    position: absolute; /* Positioning the element */
+}
+
+
+.ellipse5 {
+    width: 484.0626220703125px;
+    height: 484.0626220703125px;
+    transform: rotate(0deg);
+    /* Optional: if you want no rotation */
+    opacity: 1;
+    left: 58.4px;
+    color: #FFE9EA;
+    /* Correct way to set the background color */
+    position: absolute;
+    /* Ensure the element is positioned relative to its parent */
+}

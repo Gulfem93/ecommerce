@@ -1,18 +1,7 @@
 .app {
     /*background-image: url("../image/background_image.png");*/
-    background-image: url("../image/background_image.png");
-    width: 1440;
-    height: 729;
-    background-color: #252B42;
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: auto;
+    /*background-image: url("../image/background_image.png");*/
+    width: 1440px;
+    height: 729px;
+    background-color: #ffffff;
 }

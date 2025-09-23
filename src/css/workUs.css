@@ -1,0 +1,190 @@
+.workUs {
+    width: 1440px;
+    height: 636px;
+    transform: rotate(0deg);
+    /* Rotation effect */
+    opacity: 1;
+    /* Fully visible */
+    background-color: #2A7CC7;
+    /* Background color */
+}
+
+
+
+.workUs-container {
+    width: 1050px;
+    /* Add units for width */
+    height: 636px;
+    /* Add units for height */
+    transform: rotate(0deg);
+    /* Correct way to apply rotation */
+    opacity: 1;
+    position: relative;
+    /* Ensures the 'left' property works */
+    left: 195px;
+    /* Moves the container 195px from the left */
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+
+.workUs-row {
+    width: 1050px;
+    /* Add units for width */
+    height: 412px;
+    /* Add units for height */
+    display: flex;
+    /* Assuming you want a flexbox container */
+    justify-content: space-between;
+    /* Space out child elements */
+    transform: rotate(0deg);
+    /* Correct way to apply rotation */
+    opacity: 1;
+}
+
+
+.workUs-col-md-5 {
+    width: 438px;
+    /* Added units for width */
+    height: 238px;
+    /* Added units for height */
+    gap: 24px;
+    /* Works if using flexbox or grid */
+    display: flex;
+    /* Assuming you want to use flexbox for layout */
+    flex-direction: column;
+    /* Stack items vertically if needed */
+    opacity: 1;
+}
+
+
+h5 {
+    width: 128px;
+    /* Add units for width */
+    height: 24px;
+    /* Add units for height */
+    transform: rotate(0deg);
+    /* Correct way to apply rotation */
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    /* Ensure the font family is correctly referenced */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+
+h2 {
+    width: 440px;
+    /* Add units for width */
+    height: 50px;
+    /* Add units for height */
+    transform: rotate(0deg);
+    /* Correct way to apply rotation */
+    opacity: 1;
+
+    font-family: 'Montserrat', sans-serif;
+    /* Ensure the font-family is correctly referenced */
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* Line height is fine */
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    /* Add text color if needed */
+}
+
+.paragraph {
+    width: 440px;
+    /* Added units for width */
+    height: 40px;
+    /* Added units for height */
+    transform: rotate(0deg);
+    /* Correct way to apply rotation (if you need rotation) */
+    opacity: 1;
+
+    font-family: 'Montserrat', sans-serif;
+    /* Ensure the font is properly referenced */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* Correctly using line-height */
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    /* White text color */
+}
+
+
+.workUs-button-md {
+    width: 130px;
+    /* Add unit for width */
+    height: 52px;
+    /* Add unit for height */
+    gap: 10px;
+    transform: rotate(0deg);
+    /* Use transform instead of angle */
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    /* Make sure there's a border style */
+
+    border-color: #FAFAFA;
+    background-color: #2A7CC7;
+}
+
+
+.workUs-btn-text {
+    width: 50px;
+    /* Add units for width */
+    height: 22px;
+    /* Add units for height */
+    transform: rotate(0deg);
+    /* If you wanted rotation, but it's likely unnecessary */
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    /* Font family needs quotes if it's a multi-word name */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* Controls vertical spacing of the text */
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.workUs-background {
+    display: flex;
+    /* Flexbox layout */
+    width: 100%; /* Consider making this responsive */
+    height: 637px; /* Fixed height; you can adjust for responsiveness */
+    transform: rotate(0deg); /* Rotation, which can be adjusted later */
+    position: relative; /* Reference for absolutely positioned children */
+    flex-direction: row; /* Flex direction for horizontal layout */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+}
+
+
+.class_workUs_image {
+    width: 590px;
+    /* Image width */
+    height: 637px;
+    /* Image height */
+    transform: rotate(0deg);
+    /* No rotation here */
+    opacity: 1;
+    position: absolute;
+    /* Absolute positioning */
+    left: 850px;
+    /* Position image from the left */
+    top: 0;
+    /* You can adjust the top positioning if needed */
+    margin-top: -861px; /* negatif margin ile yukarı kayar */
+}
+
